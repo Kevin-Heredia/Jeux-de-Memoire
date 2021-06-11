@@ -12,7 +12,7 @@ def square(x, y):
     up()
     goto(x, y)
     down()
-    color('black', 'white')
+    color('black', 'green')
     begin_fill()
     for count in range(4):
         forward(50)
